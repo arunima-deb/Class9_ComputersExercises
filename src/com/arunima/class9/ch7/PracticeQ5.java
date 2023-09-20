@@ -2,7 +2,7 @@ package com.arunima.class9.ch7;
 
 import java.util.* ;
 
-public class PracticeQ3 
+public class PracticeQ5 
 {
 	public static void main( String args[] )
 	{
