@@ -2,8 +2,6 @@ package com.arunima.class9.ch7;
 
 import java.util.* ;
 
-
-
 /* Write a program to input two unequal positive numbers and check
  * whether they are perfect squares or not. If the user enters any 
  * negative number them the program displays the message "Square
@@ -16,7 +14,7 @@ public class Exercise5_6 {
 		Scanner sc = new Scanner(System.in) ;
 		System.out.println( "Enter two unequal positive numbers : " ) ;
 		double a = sc.nextDouble() ;
-		double b = sc.nextDouble();
+		double b = sc.nextDouble() ;
 		
 		if(a==b)
 		{
