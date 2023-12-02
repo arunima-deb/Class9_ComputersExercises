@@ -8,7 +8,8 @@ import java.util.* ;
  * negative number them the program displays the message "Square
  * root of a positive number cannot be determined."
  */
-public class Exercise5_6 {
+public class Exercise5_6 
+{
 
 	public static void main(String[] args) 
 	{
