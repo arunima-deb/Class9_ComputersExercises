@@ -10,16 +10,17 @@ public class Fibonacci
 		System.out.print( "Enter required number of terms : " ) ;
 		int numterms = sc.nextInt() ;
 		int i, prevprev = 0, prev = 1, toPrint;
-		System.out.print( prevprev + "\n" + prev + "\n" ) ;
+		System.out.print( prevprev + ", " + prev ) ;
+		
 		for ( i=3; i<=numterms; i++ )
 		{
 			toPrint = prevprev + prev ;
 			prevprev = prev ;
 			prev = toPrint ;
-			System.out.println( toPrint ) ;
+			System.out.print( ", " + toPrint  ) ;
 		}
 		
-		
+		sc.close() ;
 	}
 
 }
