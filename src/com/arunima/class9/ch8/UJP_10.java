@@ -1,22 +1,23 @@
 package com.arunima.class9.ch8;
 
 import java.util.* ;
-public class Digits 
+
+public class UJP_10 
 {
 	public static void main( String args[] )
 	{
 		Scanner sc = new Scanner(System.in) ;
 		System.out.print( "Enter a number : " ) ;
-		long num = sc.nextLong() ;
+		int n = sc.nextInt() ;
 		
-		int numdigits = 0 ;
-		while( num>0 )
+		int f = 1, sum=0 ;
+		for(int i=1; i<=n; i++)
 		{
-			num = num/10 ;
-			numdigits++ ;
+			f = f*i ;
+			sum=sum+f ;
 		}
-		System.out.println( "Number of digits = " + numdigits ) ;
 		
-		sc.close() ;
+		System.out.print( sum );
+		
 	}
 }

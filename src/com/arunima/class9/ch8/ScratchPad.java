@@ -4,7 +4,12 @@ public class ScratchPad {
 
 	public static void main(String[] args) {
 		
-		System.out.println( 2%10 ) ;
+		for( int i=10; i<=50; i=i+10 )
+		{
+			if(i==30)
+				continue ;
+			System.out.println(i);
+		}
 
 	}
 
