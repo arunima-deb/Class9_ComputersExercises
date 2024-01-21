@@ -1,6 +1,7 @@
 package com.arunima.class9.ch8;
 
 import java.util.* ;
+
 public class PrintDigits 
 {
 	public static void main( String args[] )
@@ -16,5 +17,6 @@ public class PrintDigits
 			System.out.print( currentDigit + ", " );
 		}
 		
+		sc.close();
 	}
 }

@@ -78,17 +78,7 @@ public class UJP
 	
 	public static void ScratchPad()
 	{
-		System.out.print( "Enter number : " ) ;
-		int n = sc.nextInt();
-		double sum = 0.0, f = 1.0 ;
-		for( int i=1; i<=n; i++ )
-		{
-			sum += i ;
-			f *= i ;
-		}
-		System.out.print( "Sum = " + sum );
-		System.out.print( "\nFactorial = " + f );
-		System.out.print( "\nSum/Factorial = " + sum/f );
+		
 	}
 	
 }

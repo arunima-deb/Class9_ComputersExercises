@@ -16,18 +16,14 @@ public class Palindrome_Schoolver
 			currentDigit=num%10 ;
 			reverseNum = (reverseNum*10) + currentDigit ;
 			num = num/10 ;
-			System.out.println( "\nnum=" + num ) ;
-			System.out.println( "reverseNum=" + reverseNum ) ;
-			System.out.println( "currentDigit=" + currentDigit ) ;
-			System.out.println( "numClone=" + numClone  ) ;
 		}
 		if(reverseNum==numClone)
 		{
-			System.out.println( "Palindrome" ) ;
+			System.out.println( "\nPalindrome" ) ;
 		}
 		else
 		{
-			System.out.println( "Not a palindrome" ) ;
+			System.out.println( "\nNot a palindrome" ) ;
 		}
 		sc.close() ;
 		

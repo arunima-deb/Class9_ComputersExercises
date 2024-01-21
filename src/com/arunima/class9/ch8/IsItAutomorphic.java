@@ -2,6 +2,11 @@ package com.arunima.class9.ch8;
 
 import java.util.* ;
 
+
+/*
+ * An automorphic number is one whose square ends in the same digits as the
+ * number itself.
+ */
 public class IsItAutomorphic {
 
 	public static void main(String[] args) 
