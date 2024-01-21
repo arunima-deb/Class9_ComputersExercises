@@ -9,7 +9,7 @@ public class UJP
 
 	public static void main( String args[] )
 	{
-		UJP.P6_3() ;
+		UJP.P6_13() ;
 		sc.close() ;
 	}
 	
@@ -74,6 +74,25 @@ public class UJP
 			sum += num/den ;
 		}
 		System.out.println( sum );
+	}
+	
+	public static void P6_13()
+	{
+		for( int i=1; i<=4; i++ )
+		{
+			int numToppers = 0 ;
+			for( int j=1; j<=5; j++ )
+			{
+				System.out.print( "Enter student name : " ) ;
+				String name = sc.next() ;
+				System.out.print( "Enter percentage : " ) ;
+				double p = sc.nextDouble() ;
+				if( p>=95.0 )
+					numToppers++ ;
+			}
+			
+			System.out.print( "\n\tSection " + i + " toppers : " + numToppers + "\n\n" ) ;
+		}
 	}
 	
 	public static void ScratchPad()
