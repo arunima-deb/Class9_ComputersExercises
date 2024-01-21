@@ -4,7 +4,7 @@ public class S {
 
 	public static void main(String[] args) 
 	{
-		S.S6();
+		S.S5();
 	}
 
 	public static void S1()
@@ -23,15 +23,22 @@ public class S {
 	public static void S6()
 	{
 		int i, j ;
-		for( i=1; i<=5; i++ )
+		for( i=0; i<5; i++ )
 		{
-			for( j=1; j<=i; j++ )
-			{
-				if( j%2!=0 )
-					System.out.print( 1 + " " ) ;
-				else
-					System.out.print( 0 + " " );
-			}
+			for( j=0; j<=i; j++ )
+				System.out.print( ( (j+1)%2 ) + " " ) ;
+			System.out.println() ;
+		}
+	}
+	
+	public static void S5()
+	{
+		int i, j ;
+		for( i=7; i>=1; i-=2 )
+		{
+			for( j=1; j<=i; j++ ) {
+				System.out.print( j + " " ); 
+			}	
 			System.out.println() ;
 		}
 	}
