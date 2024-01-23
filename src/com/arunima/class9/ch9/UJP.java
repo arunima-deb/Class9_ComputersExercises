@@ -6,11 +6,52 @@ import java.util.* ;
 public class UJP 
 {
 	private static Scanner sc = new Scanner(System.in) ;
-
+	
 	public static void main( String args[] )
 	{
-		UJP.P6_13() ;
+		UJP_14.b() ;
 		sc.close() ;
+	}
+	
+	public class UJP_14
+	{
+		public static void a()
+		{
+			double sum = 0.0 ;
+			int f=1, i, j, n ;
+			System.out.print( "Enter upper limit : " ) ;
+			n = sc.nextInt() ;
+			
+			for( i=1; i<=n; i++ )
+			{
+				f=1 ;
+				for( j=1; j<=i; j++ )
+					f*=j ;
+				sum += Math.pow(f, -1) ;
+			}
+			
+			System.out.println( "Sum = " + sum ) ;
+			
+		}
+		
+		public static void b()
+		{
+			int superSum = 0, subSum = 0, i, j, n ;
+			System.out.print( "Enter upper limit : " ) ;
+			n = sc.nextInt() ;
+			for( i=1; i<=n; i++ )
+			{
+				subSum = 0 ;
+				for( j=1; j<=i; j++ )
+					subSum += j ;
+				
+				superSum += subSum ;
+			}
+			
+			System.out.print( "Sum = " + superSum );
+			
+		}
+		
 	}
 	
 	public static void P6_12()

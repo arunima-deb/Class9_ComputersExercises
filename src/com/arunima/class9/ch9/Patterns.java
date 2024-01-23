@@ -1,11 +1,11 @@
 package com.arunima.class9.ch9;
 
-public class Triangles 
+public class Patterns 
 {
 
 	public static void main(String[] args) 
 	{
-		Triangles.patternX();
+		Patterns.patternX();
 	}
 	
 	public static void RightTriangle_Up() 

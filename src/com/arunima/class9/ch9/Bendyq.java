@@ -1,6 +1,6 @@
 package com.arunima.class9.ch9;
 
-public class Ishika_q 
+public class Bendyq 
 {
 	public static void main(String args[])
 	{

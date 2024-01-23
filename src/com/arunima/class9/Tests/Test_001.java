@@ -1,10 +1,6 @@
 package com.arunima.class9.Tests;
 
-import java.util.Scanner ;
-
 public class Test_001 {
-	
-	private static Scanner sc = new Scanner(System.in) ;
 
 	public static void main(String[] args) 
 	{
