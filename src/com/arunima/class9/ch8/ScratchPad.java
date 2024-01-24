@@ -4,13 +4,16 @@ public class ScratchPad {
 
 	public static void main(String[] args) {
 		
-		for( int i=10; i<=50; i=i+10 )
+		double ct ;
+		int sign = 1, sum = 0 ;
+		for( int i=0; i<=10; i++ )
 		{
-			if(i==30)
-				continue ;
-			System.out.println(i);
+			ct = Math.pow(2, i) * sign ;
+			sign *= -1 ;
+			sum += ct ;
 		}
-
+		System.out.println( sum ) ;
+		
 	}
 
 }
