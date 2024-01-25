@@ -9,7 +9,7 @@ public class UJP
 	
 	public static void main( String args[] )
 	{
-		UJP_14.b() ;
+		UJP.P6_10() ;
 		sc.close() ;
 	}
 	
@@ -133,6 +133,67 @@ public class UJP
 			}
 			
 			System.out.print( "\n\tSection " + i + " toppers : " + numToppers + "\n\n" ) ;
+		}
+	}
+	
+	public static void P6_8()
+	{
+		System.out.print( "Enter a number : " ) ;
+		int num = sc.nextInt() ;
+		int numFactOfNum=0, numFactOfRnum=0, numClone=num, reverseNum=0, currentDigit ;
+		
+		// Determines if number is prime
+		for( int i=1; i<=num; i++ )
+		{
+			if( num%i==0 )
+				numFactOfNum++ ;
+		}
+		
+		// Creates and stores reverse of number
+		while( num>0 )
+		{
+			currentDigit = num%10 ;
+			reverseNum = (reverseNum*10) + currentDigit ;
+			num = num/10 ;
+		}
+
+		// Determines if reverse of number is prime
+		for( int i=1; i<=reverseNum; i++ )
+		{
+			if( reverseNum%i==0 )
+				numFactOfRnum++ ;
+		}
+		
+		// Determines if number is a twisted prime
+		if( numFactOfRnum==2 && numFactOfNum==2 )
+			System.out.println( numClone + " is a twisted prime." ) ;
+		else
+			System.out.println( numClone + " is not a twisted prime." ) ;
+		
+	}
+	
+	public static void P6_10()
+	{
+		// Accept a number
+		System.out.print( "Enter a number : " ) ;
+		int n = sc.nextInt() ;
+		
+		// Initialize variables
+		int cd, fcd ;
+		
+		while( n>0 )
+		{
+			cd = n%10 ;
+			fcd = 1;
+			
+			for( int i=1; i<=cd; i++ )
+			{
+				fcd *= i ;
+			}
+			
+			System.out.println( "Factorial of " + cd + " = " + fcd ) ;
+			
+			n = n/10 ;
 		}
 	}
 	

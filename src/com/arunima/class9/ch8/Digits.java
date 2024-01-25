@@ -1,6 +1,7 @@
 package com.arunima.class9.ch8;
 
 import java.util.* ;
+
 public class Digits 
 {
 	public static void main( String args[] )

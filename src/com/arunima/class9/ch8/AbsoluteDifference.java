@@ -2,7 +2,7 @@ package com.arunima.class9.ch8;
 
 import java.util.* ;
 
-public class Ex_q10 
+public class AbsoluteDifference
 {
 	public static void main( String args[] )
 	{
