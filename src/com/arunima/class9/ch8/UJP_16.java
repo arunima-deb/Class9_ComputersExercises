@@ -20,6 +20,7 @@ public class UJP_16
 				c++ ;
 			}
 		}
-		
+	
+		sc.close() ;
 	}
 }

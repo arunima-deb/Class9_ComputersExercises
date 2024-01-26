@@ -26,5 +26,6 @@ public class UJP_17
 		}
 		System.out.println( "Result = " + result ) ;
 		
+		sc.close() ;
 	}
 }

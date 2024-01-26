@@ -9,7 +9,7 @@ public class UJP
 	
 	public static void main( String args[] )
 	{
-		UJP.P6_10() ;
+		UJP.P6_6() ;
 		sc.close() ;
 	}
 	
@@ -195,6 +195,45 @@ public class UJP
 			
 			n = n/10 ;
 		}
+	}
+	
+	public static void P6_6()
+	{
+		System.out.print( "Enter choice : " ) ;
+		int c = sc.nextInt() ;
+		int numF = 0 ;
+		
+		switch(c)
+		{
+		case 1: for( int i=1; i<=100; i++ )
+				{
+					numF=0 ;
+					for( int j=1; j<=i; j++ )
+					{
+						if( i%j==0 )
+							numF++ ;
+					}
+					
+					if( numF==2 )
+						System.out.println( i ) ;
+						
+				}
+				break ;
+		case 2: for( int i=1; i<=100; i++ )
+				{
+					numF=0 ;
+					for( int j=1; j<=i; j++ )
+					{
+						if( i%j==0 )
+							numF++ ;
+					}
+					
+					if( numF>2 )
+						System.out.println( i ) ;
+						
+				} 
+		}
+		
 	}
 	
 	public static void ScratchPad()

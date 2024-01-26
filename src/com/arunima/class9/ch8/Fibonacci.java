@@ -9,6 +9,8 @@ public class Fibonacci
 		Scanner sc = new Scanner(System.in) ;
 		System.out.print( "Enter required number of terms : " ) ;
 		int numterms = sc.nextInt() ;
+		sc.close() ;
+		
 		int i, prevprev = 0, prev = 1, toPrint;
 		System.out.print( prevprev + ", " + prev ) ;
 		
@@ -20,7 +22,7 @@ public class Fibonacci
 			System.out.print( ", " + toPrint  ) ;
 		}
 		
-		sc.close() ;
+
 	}
 
 }

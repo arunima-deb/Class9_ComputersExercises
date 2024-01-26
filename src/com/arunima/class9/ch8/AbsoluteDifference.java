@@ -21,5 +21,6 @@ public class AbsoluteDifference
 		System.out.println( "Reverse of " + numClone + " is " + reverseNum ) ;
 		System.out.print( "Absolute Difference = " + Math.abs((numClone-reverseNum))) ;
 		
+		sc.close() ;
 	}
 }

@@ -33,5 +33,6 @@ public class UJP_5
 			
 		}
 		
+		sc.close() ;
 	}
 }

@@ -18,6 +18,7 @@ public class UJP_10
 		}
 		
 		System.out.print( sum );
-		
+	
+		sc.close() ;
 	}
 }

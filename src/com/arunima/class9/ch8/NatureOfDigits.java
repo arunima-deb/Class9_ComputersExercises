@@ -28,6 +28,6 @@ public class NatureOfDigits
 		}
 		while( numclone>0 ) ;
 		
-		
+		sc.close() ;
 	}
 }

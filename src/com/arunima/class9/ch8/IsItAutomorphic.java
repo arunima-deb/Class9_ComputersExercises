@@ -31,6 +31,8 @@ public class IsItAutomorphic {
 		{
 			System.out.print( n + " is not Automorphic." );
 		}
+		
+		sc.close() ;
  
 	}
 

@@ -21,5 +21,7 @@ public class UJP_14
 		}
 		
 		System.out.print( "Amount = " + p ) ;
+		
+		sc.close() ;
  	}
 }

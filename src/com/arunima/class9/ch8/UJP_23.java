@@ -31,7 +31,7 @@ public class UJP_23 {
 		}
 		
 		
-
+		sc.close() ;
 	}
 
 }

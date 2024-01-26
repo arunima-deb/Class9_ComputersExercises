@@ -17,5 +17,7 @@ public class Factorial
 		}
 		
 		System.out.print(f) ;
+		
+		sc.close() ;
 	}
 }
