@@ -13,16 +13,16 @@ public class NatureOfDigits
 		int numclone = num ;
 		do {
 			
-			int currentnum = numclone%10 ;
+			int currentD = numclone%10 ;
 			numclone = numclone/10 ;
 			
-			if( currentnum%2==0 )
+			if( currentD%2==0 )
 			{
-				System.out.println( currentnum + " : an even digit\n");
+				System.out.println( currentD + " : an even digit\n");
 			}
 			else
 			{
-				System.out.println( currentnum + " : an odd digit\n" );
+				System.out.println( currentD + " : an odd digit\n" );
 			}
 			
 		}
