@@ -9,7 +9,7 @@ public class Palindrome_Schoolver
 		// Initialization
 		Scanner sc = new Scanner(System.in) ;
 		System.out.println( "Enter a number : " ) ;
-		int num, reverseNum = 0, currentDigit, numClone ;
+		int num, revNum = 0, currentDigit, numClone ;
 		num = sc.nextInt();
 		numClone = num ;
 		
@@ -17,12 +17,12 @@ public class Palindrome_Schoolver
 		while(num!=0)
 		{
 			currentDigit=num%10 ;
-			reverseNum = (reverseNum*10) + currentDigit ;
+			revNum = (revNum*10) + currentDigit ;
 			num = num/10 ;
 		}
 		
 		// Checking if the number is a palindrome
-		if(reverseNum==numClone)
+		if(revNum==numClone)
 		{
 			System.out.println( "\nPalindrome" ) ;
 		}
